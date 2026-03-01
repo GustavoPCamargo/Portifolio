@@ -8,15 +8,15 @@
     <link rel="shortcut icon" href="favicon.svg" type="image/svg">
     <script src="https://kit.fontawesome.com/e834e9c9d8.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="escuro">
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-user-graduate"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-diagram-project"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
+                <li><a href="#ficha" class="link"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fa-solid fa-user-graduate"></i></a></li>
+                <li><a href="#projetos" class="link"><i class="fa-solid fa-diagram-project"></i></a></li>
+                <li><a href="#" class="link" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -25,7 +25,7 @@
             <img src="" alt="Gustavo Palkowski Camargo">
             <h1>Gustavo Palkowski Camargo</h1>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto quidem suscipit illum hic unde esse totam! Aspernatur voluptate nobis itaque blanditiis placeat est, quo dolores cupiditate voluptates quasi nisi officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa non, est, quia ducimus obcaecati molestiae nihil quisquam quis, repellat praesentium velit? Amet omnis impedit deleniti autem facere, vero quaerat mollitia?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto quidem suscipit illum hic unde esse totam! Aspernatur voluptate nobis itaque blanditiis placeat est, quo dolores cupiditate voluptates quasi nisi officiis! Lorem ipsum dolor sit amet consectetur adipisicing.
             </p>
             <div id="social">
                 <a href="https://www.linkedin.com/in/gustavo-palkowski-camargo-69810b351/" target="_blank" rel="nofollow"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -35,7 +35,7 @@
             </div>
         </section>
         <section id="detalhes">
-            <article id="Skills">
+            <article id="skills">
                 <h2>
                     <i class="fa-solid fa-brain"></i> Minhas Skills
                 </h2>
@@ -160,16 +160,69 @@
                 <h2>
                     <i class="fa-solid fa-user-graduate"></i> Formação
                 </h2>
+                <div id="formacao-container">
+                    <div class="curso">
+                        <p class="periodo">2022 - 2024</p>
+                        <h3 class="instituicao">C.E.C Francisco Manoel de Lima Camargo</h3>
+                        <p class="titulacao">Ensino Superior</p>
+                    </div>
+
+                    <div class="curso">
+                        <p class="periodo">2025 - Em andamento</p>
+                        <h3 class="instituicao">PUCPR</h3>
+                        <p class="titulacao">Bacharelado em Sistemas da Informação</p>
+                    </div>
+                </div>
             </article>
             <article id="projetos">
                 <h2>
                     <i class="fa-solid fa-diagram-project"></i> Projetos
                 </h2>
+                <div id="projeto-container">
+                    <div class="projeto">
+                        <img src="imagens/projeto-03-android.jpg" alt="projeto 1" class="foto">
+                        <div class="projeto-info">
+                        <p class="periodo">2025</p>
+                        <h3 class="titulo">Projeto site do Android</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rerum ab, tempore corporis repudiandae et laborum.</p>
+                        <details class="descricao">
+                            <summary>Saiba mais...</summary>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, assumenda provident. Reprehenderit inventore, magnam corrupti eligendi similique consequuntur veritatis cupiditate quo ratione mollitia rem placeat perferendis, nisi non accusantium blanditiis.</p>
+                        </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto">
+                        <img src="imagens/projeto-04-links.jpg" alt="projeto 2" class="foto">
+                        <div class="projeto-info">
+                        <p class="periodo">2025</p>
+                        <h3 class="titulo">Projeto links para as redes sociais</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rerum ab, tempore corporis repudiandae et laborum.</p>
+                        <details class="descricao">
+                            <summary>Saiba mais...</summary>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, assumenda provident. Reprehenderit inventore, magnam corrupti eligendi similique consequuntur veritatis cupiditate quo ratione mollitia rem placeat perferendis, nisi non accusantium blanditiis.</p>
+                        </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto">
+                        <img src="imagens/projeto-05-login.jpg" alt="projeto 3" class="foto">
+                        <div class="projeto-info">
+                        <p class="periodo">2026</p>
+                        <h3 class="titulo">Projeto do login</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rerum ab, tempore corporis repudiandae et laborum.</p>
+                        <details class="descricao">
+                            <summary>Saiba mais...</summary>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, assumenda provident. Reprehenderit inventore, magnam corrupti eligendi similique consequuntur veritatis cupiditate quo ratione mollitia rem placeat perferendis, nisi non accusantium blanditiis.</p>
+                        </details>
+                        </div>
+                    </div>
+                </div>
             </article>
         </section>
     </main>
     <footer>
-
+        Portifólio desenvolvido por Gustavo Palkowski Camargo
     </footer>
 
     <script src="scripts/script.js"></script>
