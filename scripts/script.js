@@ -38,3 +38,14 @@ navLinks.forEach(link => {
     }
   });
 });
+
+document.querySelectorAll('.projeto').forEach(card => {
+    card.addEventListener('click', () => {
+        const link = card.getAttribute('data-link');
+        window.location.href = link;
+    });
+});
+
+document.querySelectorAll('.descricao').forEach(el => {
+    el.addEventListener('click', e => e.stopPropagation());
+});
