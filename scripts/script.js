@@ -42,7 +42,7 @@ navLinks.forEach(link => {
 document.querySelectorAll('.projeto').forEach(card => {
     card.addEventListener('click', () => {
         const link = card.getAttribute('data-link');
-        window.location.href = link;
+        window.open(link, '_blank');
     });
 });
 

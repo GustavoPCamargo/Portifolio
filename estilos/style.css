@@ -20,7 +20,7 @@ body.escuro{
 --texto: #e2e8f0;                 /* branco suave */
 --texto-inverso: #020617;         /* quase preto */
 --destaque: #22c55e;              /* verde principal (vivo, moderno) */
---destaque-inverso: #4ade80;      /* verde mais claro */
+--destaque-inverso: #72e79d;      /* verde mais claro */
 --fundo-card: #33363e;            /* fundo dos cards (dark elegante) */
 }
 
@@ -182,7 +182,6 @@ article h2{
 #formacao-container .curso:hover{
   border-left-width: 15px;
   border-color: var(--destaque);
-  cursor: pointer;
 }
 
 #formacao-container .periodo{
@@ -233,12 +232,6 @@ footer{
   text-align: center;
   padding: 15px;
 }
-
-
-
-
-
-
 
 @media screen and (min-width: 768px) {
   main{
