@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
-:root{
---fundo-principal: #ecfdf5;        
---texto: #022c22;                 
---texto-inverso: #ffffff;         
---destaque: #059669;              
---destaque-inverso: #34d399;      
---fundo-card: #d1fae5;    
+:root {
+  --fundo-principal: #f5f3ff;         
+  --texto: #2e1065;                 
+  --texto-inverso: #ffffff;          
+  --destaque: #8b5cf6;               
+  --destaque-inverso: #a78bfa;       
+  --fundo-card: #ffffff;    
 }
 
 *{
@@ -16,12 +16,12 @@
 }
 
 body.escuro{
---fundo-principal: #0f172a;        /* azul bem escuro (quase preto) */
---texto: #e2e8f0;                 /* branco suave */
---texto-inverso: #020617;         /* quase preto */
---destaque: #22c55e;              /* verde principal (vivo, moderno) */
---destaque-inverso: #72e79d;      /* verde mais claro */
---fundo-card: #33363e;            /* fundo dos cards (dark elegante) */
+--fundo-principal: #0f172a;        
+--texto: #e2e8f0;                 
+--texto-inverso: #020617;     
+--destaque: #22c55e;          
+--destaque-inverso: #72e79d;
+--fundo-card: #33363e;            
 }
 
 body{
