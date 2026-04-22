@@ -1,9 +1,15 @@
 const botao = document.getElementById('botao-tema');
 const body = document.body;
 
-// Persistência do tema
-const temasalvo = localStorage.getItem('tema');
-temaEscuro(temasalvo === 'claro');
+// Garantir que comece em modo escuro por padrão
+body.classList.remove('claro');
+botao.innerHTML = '<i class="fa-solid fa-moon"></i>';
+
+// Aplicar tema claro apenas se estiver salvo no localStorage
+if (localStorage.getItem('tema') === 'claro') {
+  body.classList.add('claro');
+  botao.innerHTML = '<i class="fa-solid fa-sun"></i>';
+}
 
 // Função para alternar entre tema claro e escuro
 function temaEscuro(tipo) {
