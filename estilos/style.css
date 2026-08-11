@@ -1,23 +1,21 @@
 @charset "UTF-8";
 
 :root {
-  /* MODO ESCURO - Roxo Suave */
-  --fundo-principal: #1e1b29;      /* Roxo bem escuro e dessaturado */
-  --texto: #dcd7ec;               /* Cinza lilás claro */
-  --texto-inverso: #13111b;       /* Quase preto para contrastes */
-  --destaque: #a78bfa;            /* Lavanda/Roxo médio suave */
-  --destaque-inverso: #c4b5fd;    /* Lavanda pastel */
-  --fundo-card: #2d2a3d;          /* Roxo um pouco mais claro que o fundo */
+  --fundo-principal: #1e1b29;      
+  --texto: #dcd7ec;               
+  --texto-inverso: #13111b;   
+  --destaque: #a78bfa;            
+  --destaque-inverso: #c4b5fd;  
+  --fundo-card: #2d2a3d;         
 }
 
 body.claro {
-  /* MODO CLARO - Verde Leve */
-  --fundo-principal: #f2f7f4;     /* Branco com um toque de verde menta */
-  --texto: #2d3a33;               /* Verde floresta bem escuro (quase preto) */
-  --texto-inverso: #ffffff;       /* Branco puro */
-  --destaque: #63a683;            /* Verde sálvia suave */
-  --destaque-inverso: #a8d5ba;    /* Verde menta pastel */
-  --fundo-card: #ffffff;          /* Card branco limpo */
+  --fundo-principal: #f2f7f4;     
+  --texto: #2d3a33;              
+  --texto-inverso: #ffffff;       
+  --destaque: #63a683;            
+  --destaque-inverso: #a8d5ba;   
+  --fundo-card: #ffffff;          
 }
 
 *{

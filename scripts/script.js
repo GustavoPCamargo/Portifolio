@@ -28,12 +28,15 @@ botao.addEventListener('click', () => {
   localStorage.setItem('tema', isclaro ? 'claro' : 'escuro');
 });
 
-// Scroll suave para links de navegação
+// Scroll suave para links de navegação internos
 const navLinks = document.querySelectorAll('#menu ul a.link');
 navLinks.forEach(link => {
+  const href = link.getAttribute('href');
+  if (!href.startsWith('#')) return;
+
   link.addEventListener('click', function(e) {
     e.preventDefault();
-    const target = document.querySelector(this.getAttribute('href'));
+    const target = document.querySelector(href);
     if (target) {
       const headerHeight = document.querySelector('header').offsetHeight;
       const targetPosition = target.offsetTop - headerHeight - 20;
@@ -55,3 +58,4 @@ document.querySelectorAll('.projeto').forEach(card => {
 document.querySelectorAll('.descricao').forEach(el => {
     el.addEventListener('click', e => e.stopPropagation());
 });
+
